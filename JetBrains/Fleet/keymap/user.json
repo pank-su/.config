@@ -1,0 +1,268 @@
+{
+  "keymap": [
+    {
+      "key": "down",
+      "action": "-arrow-down"
+    },
+    {
+      "key": "down",
+      "action": "arrow-down"
+    },
+    {
+      "key": "up",
+      "action": "-arrow-up"
+    },
+    {
+      "key": "up",
+      "action": "arrow-up"
+    },
+    {
+      "key": "ctrl-n",
+      "action": "arrow-down"
+    },
+    {
+      "key": "ctrl-b",
+      "action": "arrow-left"
+    },
+    {
+      "key": "ctrl-f",
+      "action": "arrow-right"
+    },
+    {
+      "key": "ctrl-p",
+      "action": "arrow-up"
+    },
+    {
+      "key": "ctrl-g",
+      "action": "cancel"
+    },
+    {
+      "key": "ctrl-x ctrl-c",
+      "action": "close-window"
+    },
+    {
+      "key": "alt-semicolon",
+      "action": "comment-block"
+    },
+    {
+      "key": "ctrl-slash",
+      "action": "-comment-line"
+    },
+    {
+      "key": "ctrl-shift-slash",
+      "action": "-comment-block"
+    },
+    {
+      "key": "ctrl-shift-numpaddivide",
+      "action": "-comment-block"
+    },
+    {
+      "key": "ctrl-numpaddivide",
+      "action": "-comment-line"
+    },
+    {
+      "key": "ctrl-shift-digit7",
+      "action": "-comment-line"
+    },
+    {
+      "key": "ctrl-shift-colon",
+      "action": "-comment-line"
+    },
+    {
+      "key": "ctrl-c",
+      "action": "-copy"
+    },
+    {
+      "key": "alt-w",
+      "action": "copy"
+    },
+    {
+      "key": "ctrl-x",
+      "action": "-cut"
+    },
+    {
+      "key": "ctrl-w",
+      "action": "cut"
+    },
+    {
+      "key": "ctrl-e",
+      "action": "end"
+    },
+    {
+      "key": "ctrl-f",
+      "action": "-find"
+    },
+    {
+      "key": "ctrl-s",
+      "action": "find"
+    },
+    {
+      "key": "alt-g",
+      "action": "goto/line"
+    },
+    {
+      "key": "ctrl-g",
+      "action": "-goto/line"
+    },
+    {
+      "key": "ctrl-d",
+      "action": "delete-forward"
+    },
+    {
+      "key": "alt-d",
+      "action": "delete-word-forward"
+    },
+    {
+      "key": "ctrl-d",
+      "action": "-editor/duplicate-line"
+    },
+    {
+      "key": "ctrl-shift-f",
+      "action": "-find-in-path"
+    },
+    {
+      "key": "shift-ctrl-s",
+      "action": "find-in-path"
+    },
+    {
+      "key": "alt-f7",
+      "action": "-find-usages"
+    },
+    {
+      "key": "f6",
+      "action": "find-usages"
+    },
+    {
+      "key": "ctrl-v",
+      "action": "page-down"
+    },
+    {
+      "key": "ctrl-v",
+      "action": "-paste"
+    },
+    {
+      "key": "ctrl-y",
+      "action": "paste"
+    },
+    {
+      "key": "alt-v",
+      "action": "page-up"
+    },
+    {
+      "key": "ctrl-s",
+      "action": "-save-all"
+    },
+    {
+      "key": "ctrl-x ctrl-s",
+      "action": "save-all"
+    },
+    {
+      "key": "ctrl-x h",
+      "action": "select-all"
+    },
+    {
+      "key": "shift-ctrl-n",
+      "action": "shift-arrow-down"
+    },
+    {
+      "key": "shift-ctrl-b",
+      "action": "shift-arrow-left"
+    },
+    {
+      "key": "shift-ctrl-f",
+      "action": "shift-arrow-right"
+    },
+    {
+      "key": "shift-ctrl-p",
+      "action": "shift-arrow-up"
+    },
+    {
+      "key": "shift-alt-b",
+      "action": "editor/move-caret-to-previous-word-with-selection"
+    },
+    {
+      "key": "shift-alt-f",
+      "action": "editor/move-caret-to-next-word-with-selection"
+    },
+    {
+      "key": "shift-ctrl-a",
+      "action": "shift-home"
+    },
+    {
+      "key": "shift-ctrl-v",
+      "action": "shift-page-down"
+    },
+    {
+      "key": "ctrl-alt-v",
+      "action": "shift-page-up"
+    },
+    {
+      "key": "alt-b",
+      "action": "editor/move-caret-to-previous-word"
+    },
+    {
+      "key": "alt-f",
+      "action": "editor/move-caret-to-next-word"
+    },
+    {
+      "key": "ctrl-k",
+      "action": "editor/delete-line"
+    },
+    {
+      "key": "ctrl-k",
+      "action": "-git/commit/jump-to-tool"
+    },
+    {
+      "key": "ctrl-x g",
+      "action": "git/commit/jump-to-tool"
+    },
+    {
+      "key": "ctrl-p",
+      "action": "-show-parameter-info"
+    },
+    {
+      "key": "alt-n",
+      "action": "new-file"
+    },
+    {
+      "key": "ctrl-n",
+      "action": "-new-file"
+    },
+    {
+      "key": "ctrl-shift-a",
+      "action": "-goto/action"
+    },
+    {
+      "key": "alt-x",
+      "action": "goto/action"
+    },
+    {
+      "key": "ctrl-x ctrl-right",
+      "action": "next-tab"
+    },
+    {
+      "key": "ctrl-x ctrl-left",
+      "action": "prev-tab"
+    },
+    {
+      "key": "ctrl-x ctrl-f",
+      "action": "goto/file"
+    },
+    {
+      "key": "ctrl-b",
+      "action": "-go-to-declaration"
+    },
+    {
+      "key": "ctrl-w",
+      "action": "-expand-selection"
+    },
+    {
+      "key": "ctrl-z",
+      "action": "-undo"
+    },
+    {
+      "key": "ctrl-slash",
+      "action": "undo"
+    }
+  ]
+}
