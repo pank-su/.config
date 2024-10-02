@@ -116,7 +116,7 @@
 		     ))
   ;;(dashboard-set-file-icons t)
   ;; Картинка
-  (dashboard-startup-banner "~/.emacs.d/me/god.png")
+  (dashboard-startup-banner "~/.config/emacs/me/god.png")
   ;; Цитатки
   (dashboard-footer-messages
   '("Emacs - это не просто редактор, это образ жизни."
@@ -236,6 +236,7 @@
    (shell . t)
    (plantuml . t)
    (python . t)
+   (octave . t)
   )
  )
 
@@ -259,7 +260,7 @@
 
 ;; Правила безопасности org-babel
 (defun my-org-confirm-babel-evaluate (lang body)
-  (not (string= lang "sql"))) 
+  (not (string= lang "octave"))) 
 (setq org-confirm-babel-evaluate #'my-org-confirm-babel-evaluate)
 
 (setq org-babel-default-header-args:sql '(
@@ -303,13 +304,13 @@
      ("" "capt-of" nil nil)
      ("" "hyperref" nil nil)))
 
-;; (use-package ox-gost
-;;   :load-path "./ox-gost"
-;;   :config (setq org-gost-education-organization "ГУАП"
-;; 	        org-gost-department "ФАКУЛЬТЕТ СРЕДНЕГО ПРОФЕССИОНАЛЬНОГО ОБРАЗОВАНИЯ"
-;; 		org-gost-teacher-position "преподаватель"
-;; 		org-gost-city "Санкт-Петербург"
-;; 		org-gost-group "021к"))
+(use-package ox-gost
+  :load-path "./ox-gost"
+  :config (setq org-gost-education-organization "ГУАП"
+	        org-gost-department "КАФЕДРА №1"
+		org-gost-teacher-position "старший преподаватель"
+		org-gost-city "Санкт-Петербург"
+		org-gost-group "М412"))
 
 
 
@@ -485,3 +486,17 @@
 
 
 
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(org-latex-caption-above '(table src-block))
+ '(package-selected-packages
+   '(org yasnippet-snippets yasnippet-capf yascroll which-key use-package-ensure-system-package treesit-auto treemacs-tab-bar treemacs-projectile treemacs-magit telega smooth-scroll selectrum rust-mode reverse-im ox-reveal org-modern org-download org-bullets ob-kotlin nyan-mode nov multiple-cursors kind-icon gradle-mode forge flycheck-inline fireplace engrave-faces elcord doom-modeline dockerfile-mode docker dashboard csv-mode corfu centaur-tabs catppuccin-theme cape all-the-icons)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
