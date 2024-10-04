@@ -263,6 +263,30 @@
     {
       "key": "ctrl-slash",
       "action": "undo"
+    },
+    {
+      "key": "shift-return",
+      "action": "-editor/insert-new-line-below"
+    },
+    {
+      "key": "ctrl-o",
+      "action": "editor/insert-new-line-below"
+    },
+    {
+      "key": "ctrl-alt-return",
+      "action": "-editor/insert-new-line-above"
+    },
+    {
+      "key": "ctrl-m",
+      "action": "editor/insert-new-line-above"
+    },
+    {
+      "key": "ctrl-x i",
+      "action": "new-file"
+    },
+    {
+      "key": "ctrl-i",
+      "action": "-editor/move-caret-with-selection"
     }
   ]
 }
